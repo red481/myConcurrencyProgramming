@@ -1,4 +1,4 @@
-package section05_synchronizationConcept;
+package section05_synchronizationConcept.exam01;
 
 public class SingleThreadExample {
     public static void main(String[] args) {
