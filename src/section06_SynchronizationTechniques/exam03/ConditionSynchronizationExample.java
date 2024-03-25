@@ -1,4 +1,4 @@
-package Section06_SynchronizationTechniques.exam03;
+package section06_SynchronizationTechniques.exam03;
 
 public class ConditionSynchronizationExample {
 

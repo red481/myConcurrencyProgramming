@@ -1,4 +1,4 @@
-package Section06_SynchronizationTechniques.exam01;
+package section06_SynchronizationTechniques.exam01;
 
 
 public class Mutex {

@@ -1,4 +1,4 @@
-package Section06_SynchronizationTechniques.exam02;
+package section06_SynchronizationTechniques.exam02;
 
 public interface CommonSemaphore {
 

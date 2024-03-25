@@ -1,7 +1,4 @@
-package Section06_SynchronizationTechniques.exam02;
-
-import Section06_SynchronizationTechniques.exam01.Mutex;
-import Section06_SynchronizationTechniques.exam01.SharedData;
+package section06_SynchronizationTechniques.exam02;
 
 public class BinarySemaphoreExample {
     public static void main(String[] args) throws InterruptedException {
