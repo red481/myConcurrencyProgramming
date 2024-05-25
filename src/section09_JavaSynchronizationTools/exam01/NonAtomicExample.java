@@ -32,4 +32,5 @@ public class NonAtomicExample {
 
         System.out.println("Final value : " + value);
     }
+
 }
