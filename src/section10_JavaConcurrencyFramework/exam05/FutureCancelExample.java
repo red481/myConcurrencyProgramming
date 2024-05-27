@@ -1,8 +1,11 @@
 package section10_JavaConcurrencyFramework.exam05;
 
-import java.util.concurrent.*;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
-public class FutureGetExample {
+public class FutureCancelExample {
     public static void main(String[] args) throws InterruptedException {
 
         ExecutorService executorService = Executors.newFixedThreadPool(1);
@@ -16,11 +19,8 @@ public class FutureGetExample {
         };
 
         Future<Integer> future = executorService.submit(callableTask);
-
-        while(!future.isDone()) {
-            System.out.println("작업을 기다리는 중..");
-            Thread.sleep(500);
-        }
+        Thread.sleep(1000);
+        future.cancel(true);
 //        try {
 //            int result = future.get();
 //            System.out.println("result = " + result);
